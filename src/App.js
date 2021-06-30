@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import RecipeWindow from './Components/RecipeWindow';
+import RecipeWindow from './components/RecipeWindow';
 
 function App() {
   const YOUR_APP_ID = '1a6d4cd0';
@@ -9,7 +9,7 @@ function App() {
   const [query, setQuery] = useState('');
   const [recipes, setRecipes] = useState([]);
 
-  const url = `https://api.edamam.com/search?q=chicken&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}`;
+  const url = `https://api.edamam.com/search?q=${query}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}`;
 
   const getRecipes = async () => {
     const response = await fetch(url);
