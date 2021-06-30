@@ -1,2 +1,2 @@
 # recipe-application
- A Simple Recipe search web application 
+A Simple Recipe search web application 
