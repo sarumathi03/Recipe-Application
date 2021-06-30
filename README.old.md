@@ -1,2 +1,2 @@
 # recipe-application
- A recipe web application is created using React
+ A Simple Recipe search web application 
